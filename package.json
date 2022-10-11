@@ -1,0 +1,34 @@
+{
+  "name": "module-13",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test" : "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "heroku": "^7.3.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanClevenger/TechBlog-Tech_News.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvanClevenger/TechBlog-Tech_News/issues"
+  },
+  "homepage": "https://github.com/EvanClevenger/TechBlog-Tech_News#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
